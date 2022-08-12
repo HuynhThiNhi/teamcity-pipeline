@@ -30,3 +30,15 @@ In build.gradle file, replace:
 
 Because, version 7.0 removed compile and testCompile configurations.
 Source: https://docs.gradle.org/current/userguide/upgrading_version_6.html#sec:configuration_removal
+
+[12.Aug.2022]
+
+Upgrade Gradle wrapper version from version 7.0 to 7.5(latest version)
+
+###### Change version in the gradle wrapper file
+    
+    vim gradle/wrapper/gradle-wrapper.properties
+
+Set the new version in the following line 
+
+    distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip    
